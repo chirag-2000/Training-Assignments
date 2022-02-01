@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>Static Template</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 450px 300px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.second {
+  width: 450px;
+  height: 290px;
+  /* background-color: blueviolet; */
+  background-color: #408b78;
+  border-radius: 10px;
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+  padding: 10px;
+}
+
+.third {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  /* align-items: center; */
+  justify-self: center;
+  margin-top: 30px;
+}
+
+.fourth {
+  width: 100px;
+  height: 100px;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+p {
+  font-weight: 700;
+  padding: 10px;
+}
+
+span {
+  color: #a8dadc;
+}
+
+.fifth {
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+
+.sixth {
+  width: 300px;
+  height: 290px;
+  border-radius: 10px;
+}
+
+img {
+  width: 300px;
+  height: 290px;
+  border-radius: 10px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="first">
+      <div class="second">
+        <p class="heading">
+          Lorem ipsum dolor sit amet .
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores nostrum quidem exercitationem impedit officia, suscipit esse .
+        </p>
+        <div class="third">
+          <div class="fourth">
+            <div class="fifth">100</div>
+            <div>COMPANIES</div>
+          </div>
+          <div class="fourth">
+            <div class="fifth">200</div>
+            <div>TEMPLATES</div>
+          </div>
+          <div class="fourth">
+            <div class="fifth">200k</div>
+            <div>QUERIES</div>
+          </div>
+        </div>
+      </div>
+      <div class="sixth">
+        <img
+          src="https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
